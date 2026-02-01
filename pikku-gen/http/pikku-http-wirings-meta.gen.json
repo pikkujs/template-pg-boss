@@ -1,0 +1,45 @@
+{
+  "get": {},
+  "post": {
+    "/workflow/review": {
+      "pikkuFuncName": "",
+      "route": "/workflow/review",
+      "method": "post",
+      "workflow": true
+    },
+    "/rpc/:rpcName": {
+      "pikkuFuncName": "rpcCaller",
+      "route": "/rpc/:rpcName",
+      "method": "post",
+      "params": [
+        "rpcName"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    }
+  },
+  "put": {},
+  "delete": {},
+  "head": {},
+  "patch": {},
+  "options": {
+    "/rpc/:rpcName": {
+      "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+      "route": "/rpc/:rpcName",
+      "method": "options",
+      "params": [
+        "rpcName"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    }
+  }
+}

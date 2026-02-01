@@ -1,0 +1,6 @@
+{
+  "processReminder": "processReminder",
+  "testEventTrigger": "testEventTrigger",
+  "onTestEvent": "onTestEvent",
+  "rpcCaller": "rpcCaller"
+}
